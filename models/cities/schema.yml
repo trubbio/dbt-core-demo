@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: italy
+    description: "Italian cities"
+    columns:
+      - name: city
+        description: "The primary key for this table"
+        tests:
+          - not_null
+      - name: region
+        description: "The primary key for this table"
+        tests:
+          - not_null
+      - name: state
+        description: "The primary key for this table"
+        tests:
+          - not_null
